@@ -1,0 +1,27 @@
+footer {
+  background-color: #0090f6;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: white;
+  font-size: 26px;
+  margin-top: 90px;
+}
+
+.logo-eikonica {
+  height: 54px;
+}
+
+footer span {
+  font-size: 16px;
+}
+
+.colaborator {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+footer a {
+  text-decoration: underline 1px;
+}
