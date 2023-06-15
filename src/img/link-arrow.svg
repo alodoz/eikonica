@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wireframe-1440-12col" transform="translate(-553.000000, -2141.000000)" fill="#E163ED">
+            <g id="arrow" transform="translate(553.000000, 2141.000000)">
+                <polygon id="Fill-1" points="4.34050793 3.49877899 23.3993889 3.49877899 23.3993889 0 4.34050793 0"></polygon>
+                <polygon id="Fill-2" points="20.5487063 19.8238808 24.0474852 19.8238808 24.0474852 0.000844503738 20.5487063 0.000844503738"></polygon>
+                <polygon id="Fill-3" points="0 21.5260866 2.47391338 24 23.5369224 2.93687033 21.063009 0.463077593"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
