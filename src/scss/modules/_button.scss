@@ -1,62 +1,23 @@
-.container nav {
-  font-weight: 500;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 1%;
-  font-size: 20px;
-  color: #0090f6;
-}
-
-header {
-  padding-top: 20px;
-}
-
-header img {
-  height: 34px;
-}
-
-.title {
-  margin-top: 160px;
-  font-size: 45px;
-  color: #0090f6;
-}
-
-.sub-title {
-  text-align: right;
-  font-weight: 300;
-  margin-top: 60px;
-  color: #0090f6;
-  margin-bottom: 150px;
-  font-size: 44px;
-}
-
-.highlight {
+.button {
   background-color: #7ae42d;
+  display: inline-block;
+  padding: 25px 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 100px;
   color: #e163ed;
+  font-size: 26px;
+  font-weight: bolder;
 }
 
-nav a {
-  text-decoration: none;
+.button .activity-calendar img {
+  margin-left: 10px;
 }
 
-a.underline-animation {
-  position: relative;
-  text-decoration: none;
-  color: #0090f6;
+a {
+  cursor: pointer;
 }
 
-a.underline-animation::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2.5px;
-  background-color: #0090f6;
-  transition: width 0.4s ease;
-  transition-delay: 0.2s;
-}
-
-a.underline-animation:hover::before {
-  width: 100%;
+.activity-calendar {
+  margin-top: 15px;
 }

@@ -1,0 +1,40 @@
+.card-exposition {
+  position: relative;
+  height: 580px;
+  width: auto;
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+.experimental-interface {
+  height: 580px;
+  width: auto;
+  background-size: cover;
+  border-radius: 15px;
+  background-image: url("../img/experimantal-interface.jpg");
+  margin-bottom: 4%;
+}
+
+.check-further {
+  position: absolute;
+  top: 83%;
+  left: 84%;
+}
+
+.card-exposition span {
+  position: absolute;
+  color: #7ae42d;
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.immersive-exploration {
+  background-image: url("../img/immersion-space.jpg");
+}
+
+.ai-art {
+  background-image: url("../img/ai-art.jpg");
+}
