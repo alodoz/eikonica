@@ -20,11 +20,11 @@
           </div>
           <div class="col-9 offset-1">
             <nav>
-              <a href="" class="underline-animation">Programme</a>
-              <a href="" class="underline-animation">Expositions</a>
-              <a href="" class="underline-animation">Infos pratiques</a>
-              <a href="" class="underline-animation">Partenaires</a>
-              <a href="" class="underline-animation">Contact</a>
+              <a href="#program" class="underline-animation">Programme</a>
+              <a href="#exposition" class="underline-animation">Expositions</a>
+              <a href="#info" class="underline-animation">Infos pratiques</a>
+              <a href="#partner" class="underline-animation">Partenaires</a>
+              <a href="#contact" class="underline-animation">Contact</a>
             </nav>
           </div>
           <div class="col-7 offset-right-5 title">
@@ -56,7 +56,7 @@
     <main>
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          <div id="program" class="col-12">
             <h2>Aperçu du programme</h2>
           </div>
           <div class="col-3">
@@ -125,7 +125,7 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-12">
+              <div id="exposition" class="col-12">
                 <h2>Expositions</h2>
               </div>
               <div class="col-6">
@@ -161,7 +161,7 @@
             </div>
           </div>
           <div class="col-6 information">
-            <div class="information-title">
+            <div id="info" class="information-title">
               <h2>Infos pratiques</h2>
               <p>
                 Le festival se déroulera du 13 au 15 octobre 2023 dans la salle
@@ -179,10 +179,13 @@
               </div>
             </div>
           </div>
-          <div class="col-6 information">
-            <a href=""><img src="img/map-frisson.jpg" alt="map-location" /></a>
+          <div class="col-6 information information-image">
+            <a
+              href="https://www.google.com/maps/dir//Fri-Son,+Rte+de+la+Fonderie+13,+1700+Fribourg/@46.8011112,7.1434902,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x478e68d60caab5a7:0xecfdce4459f145e0!2m2!1d7.151368!2d46.7949744?entry=ttu"
+              ><img src="img/map-frisson.jpg" alt="map-location"
+            /></a>
           </div>
-          <div class="col-12 reservation-place">
+          <div id="reservation" class="col-12 reservation-place">
             <h2>Réservations</h2>
           </div>
           <div class="col-12 reservation-place">
@@ -202,8 +205,8 @@
       </div>
     </main>
     <footer>
-      <div class="container">
-        <div class="row">
+      <div id="contact" class="container">
+        <div id="partner" class="row">
           <div class="col-3">
             <img src="img/eikonica.svg" alt="logo-eikonica" />
           </div>
@@ -220,9 +223,11 @@
             <a href=""><img src="img/facebook.svg" alt="facebook-logo" /></a>
           </div>
           <div class="col-2">
-            <!-- <a href="">FR</a>
-            <p>|</p>
-            <a href="">DE</a> -->
+            <div id="language-selector">
+              <a href="#" class="language-link active" data-lang="fr">FR</a> |
+              <a href="#" class="language-link" data-lang="de">DE</a>
+            </div>
+            <p id="greeting"></p>
           </div>
           <div class="col-8 offset-2 colaborator">
             <img

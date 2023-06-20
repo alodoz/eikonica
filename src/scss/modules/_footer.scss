@@ -25,3 +25,12 @@ footer span {
 footer a {
   text-decoration: underline 1px;
 }
+
+.language-link {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.language-link.active {
+  font-weight: bold;
+}
